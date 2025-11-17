@@ -21,11 +21,10 @@ GameManager="*res://scripts/game_manager.gd"
 
 [display]
 
-window/size/mode=2
+window/size/resizable=false
 window/stretch/mode="canvas_items"
-window/stretch/aspect="ignore"
+window/stretch/aspect="expand"
 window/stretch/scale=4.0
-window/stretch/scale_mode="integer"
 
 [editor]
 

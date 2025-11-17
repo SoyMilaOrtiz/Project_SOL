@@ -80,7 +80,7 @@ func start_direction_cycle() -> void:
 		await get_tree().create_timer(2).timeout
 		
 
-func fireball(direction: Vector2) -> void:
+func fireball(_direction: Vector2) -> void:
 	sprite.play((animations[0]))
 	var fireball_instance = fireball_scene.instantiate()
 	get_parent().add_child(fireball_instance)

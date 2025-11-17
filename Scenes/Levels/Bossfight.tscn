@@ -26,7 +26,7 @@
 [ext_resource type="PackedScene" uid="uid://dncmwk0t3feu3" path="res://Scenes/Entities/thief.tscn" id="23_tuxxp"]
 [ext_resource type="PackedScene" uid="uid://c5aibx2wdkqe0" path="res://Scenes/Entities/thief2.tscn" id="24_12qmp"]
 [ext_resource type="PackedScene" uid="uid://dmimvp0ktwiqa" path="res://Scenes/Entities/thief3.tscn" id="25_b2t3n"]
-[ext_resource type="Script" uid="uid://b43tgp4m0r7au" path="res://Scenes/Levels/cubodehielo.gd" id="26_dds47"]
+[ext_resource type="Script" uid="uid://b43tgp4m0r7au" path="res://scripts/Traps/cubodehielo.gd" id="26_dds47"]
 [ext_resource type="AudioStream" uid="uid://cbow7xh67gbcv" path="res://SFX/bat_attack.mp3" id="27_41pmn"]
 [ext_resource type="AudioStream" uid="uid://dxvkod51ev133" path="res://SFX/player_hurt.mp3" id="28_q5ug0"]
 [ext_resource type="Script" uid="uid://calip111lgrul" path="res://scripts/blinking_light.gd" id="30_f5ib3"]

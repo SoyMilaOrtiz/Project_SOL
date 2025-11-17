@@ -1335,7 +1335,6 @@ fill = 1
 fill_from = Vector2(0.5, 0.5)
 
 [node name="Node2D3" type="Node2D"]
-position = Vector2(0, -1)
 metadata/_edit_horizontal_guides_ = [176.0]
 
 [node name="AguabottomLayer" type="ColorRect" parent="."]
@@ -1396,43 +1395,51 @@ tile_map_data = PackedByteArray("AAD4////AAACAAMAAAD4/wAAAAACAAQAAAD5////AAAAAAQ
 tile_set = SubResource("TileSet_yil1h")
 rendering_quadrant_size = 32
 
-[node name="Spitter" parent="." instance=ExtResource("12_arst7")]
+[node name="Spitter" parent="." node_paths=PackedStringArray("player_node") instance=ExtResource("12_arst7")]
 position = Vector2(-280, 312)
 damage = 3
-directions = Array[String](["up"])
+directions = Array[String](["right", "left", "up", "down"])
 fireball_length = 6
+player_node = NodePath("../Scene Manager/Player")
 
-[node name="Spitter2" parent="." instance=ExtResource("12_arst7")]
+[node name="Spitter2" parent="." node_paths=PackedStringArray("player_node") instance=ExtResource("12_arst7")]
 position = Vector2(168, 216)
 damage = 3
-directions = Array[String](["left"])
+directions = Array[String](["right", "left", "up", "down"])
+player_node = NodePath("../Scene Manager/Player")
 
-[node name="Spitter3" parent="." instance=ExtResource("12_arst7")]
+[node name="Spitter3" parent="." node_paths=PackedStringArray("player_node") instance=ExtResource("12_arst7")]
 position = Vector2(136, 184)
 damage = 3
-directions = Array[String](["left"])
+directions = Array[String](["right", "left", "up", "down"])
+player_node = NodePath("../Scene Manager/Player")
 
-[node name="Spitter4" parent="." instance=ExtResource("12_arst7")]
+[node name="Spitter4" parent="." node_paths=PackedStringArray("player_node") instance=ExtResource("12_arst7")]
 position = Vector2(104, 200)
 damage = 3
-directions = Array[String](["left"])
+directions = Array[String](["right", "left", "up", "down"])
+player_node = NodePath("../Scene Manager/Player")
 
-[node name="Spitter5" parent="." instance=ExtResource("12_arst7")]
+[node name="Spitter5" parent="." node_paths=PackedStringArray("player_node") instance=ExtResource("12_arst7")]
 position = Vector2(360, 344)
 damage = 3
-directions = Array[String](["up", "right"])
+directions = Array[String](["right", "left", "up", "down"])
 fireball_length = 6
+player_node = NodePath("../Scene Manager/Player")
 
-[node name="Spitter6" parent="." instance=ExtResource("12_arst7")]
+[node name="Spitter6" parent="." node_paths=PackedStringArray("player_node") instance=ExtResource("12_arst7")]
 position = Vector2(-104, 504)
 damage = 3
+directions = Array[String](["right", "left", "up", "down"])
 fireball_length = 6
+player_node = NodePath("../Scene Manager/Player")
 
-[node name="Spitter7" parent="." instance=ExtResource("12_arst7")]
+[node name="Spitter7" parent="." node_paths=PackedStringArray("player_node") instance=ExtResource("12_arst7")]
 position = Vector2(40, 568)
 damage = 3
-directions = Array[String](["up"])
+directions = Array[String](["right", "left", "up", "down"])
 fireball_length = 6
+player_node = NodePath("../Scene Manager/Player")
 
 [node name="Plant2" parent="." instance=ExtResource("4_4frhq")]
 position = Vector2(-136, 200)
