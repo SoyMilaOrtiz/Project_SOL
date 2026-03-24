@@ -8,7 +8,7 @@ extends Node2D
 @export var boss: CharacterBody2D
 
 @onready var audio_player: AudioStreamPlayer2D = $AudioStreamPlayer2D
-@onready var sprite: Sprite2D = $Sprite2D2
+@onready var sprite: AnimatedSprite2D = $AnimatedSprite2D
 @onready var area2D: Area2D = $Area2D
 
 
